@@ -38,6 +38,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
 ```
 4. Go to Settings -> Scroll down to GitHub Pages -> Select `gh-pages` as branch and `/` as directory 
+5. Go to Settings -> Action -> General -> Workflow permissions and check `read and write permissions`
 
 ## Options 🔧
 |   Name   |            Description           |     Default    | Required |
